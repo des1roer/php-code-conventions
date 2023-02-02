@@ -2043,7 +2043,7 @@ public function isEmailAddressData(): array {
 
 public function isEmailAddressData(): \Generator {
     yield 'valid' => ['email' => 'test@test.ru', 'isValid' => true];
-    yield 'invalid with @' => ['email' => '@test.ru',     'isValid' => false];
+    yield 'invalid with @' => ['email' => '@test.ru', 'isValid' => false];
 }
 ```
 
